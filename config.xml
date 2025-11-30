@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.cyberguardian.xmd" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>CYBER-GUARDIAN XMD</name>
+  <description>
+    CYBER-GUARDIAN XMD — Minimal Cordova app built in Termux
+  </description>
+  <author email="dev@example.com" href="https://example.com">CYBER-GUARDIAN</author>
+  <content src="index.html" />
+  <access origin="*" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <platform name="android">
+    <allow-intent href="market:*" />
+    <icon src="res/icon/android/icon.png" />
+  </platform>
+  <preference name="AndroidPersistentFileLocation" value="Internal" />
+</widget>
